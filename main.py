@@ -1,4 +1,4 @@
-from model import BiRNN
+from model import BIRNN
 #from data import Word
 import numpy
 import torch

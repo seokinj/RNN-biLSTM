@@ -22,7 +22,7 @@ class RNN(nn.Module):
 		out = self.fc(out[:,-1,:])
 		return out
 
-class BiRNN(nn.Module):
+class BIRNN(nn.Module):
 	def __init__(self, input_size, hidden_size, batch_size, seq_len, num_layers, num_classes):
 		super(BiRNN, self).__init__()
 		self.hidden_size = hidden_size
